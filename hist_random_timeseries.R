@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-=======
 ## Random Walk Historical Surge Time Series
 
->>>>>>> bffd4d72f6ca878003d7c8717f6c1628242172da
 library(rjags)
 y=y
 RandomWalk = "

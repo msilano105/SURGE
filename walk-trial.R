@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+## Random Walk Historical Surge Time Series
+
+>>>>>>> bffd4d72f6ca878003d7c8717f6c1628242172da
 tide_height = read.csv("~/SURGE/tide height data/2015NHA.txt", sep="", skip="10")
 tide<-as.numeric(levels(height$f)[height$f])
 surge<-as.numeric(levels(height$f2)[height$f2])
@@ -19,7 +24,12 @@ nchain = 3
 
 y.1=as.numeric(y)
 data=list(n=length(desired_rows), z=y.1)
+<<<<<<< HEAD
 Surge.Height="
+=======
+
+RandomWalk="
+>>>>>>> bffd4d72f6ca878003d7c8717f6c1628242172da
 model{
   
   #### Process Model
