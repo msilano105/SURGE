@@ -47,7 +47,7 @@ for(i in 1:nchain){
 }
 j.model   <- jags.model (file = textConnection(SurgeHeight),
                          data = data,
-                         inits = init,
+                         init = init,
                          n.chains = 3)
 jags.out   <- coda.samples (model = j.model,
                             variable.names = c("tau_add","tau_obs"),
